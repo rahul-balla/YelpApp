@@ -25,7 +25,7 @@ class BusinessCell: UITableViewCell {
             categoriesLabel.text = business.categories
             addressLabel.text = business.address
             distanceLabel.text = business.distance
-            reviewsCountLabel.text = "\(business.reviewCount) Reviews"
+            reviewsCountLabel.text = "\(business.reviewCount!) Reviews"
             ratingImageView.setImageWith(business.ratingImageURL!)
         }
     }
@@ -35,6 +35,13 @@ class BusinessCell: UITableViewCell {
         // Initialization code
         thumbImageView.layer.cornerRadius = 3
         thumbImageView.clipsToBounds = true
+        
+        nameLabel.preferredMaxLayoutWidth = nameLabel.frame.size.width
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        nameLabel.preferredMaxLayoutWidth = nameLabel.frame.size.width
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
