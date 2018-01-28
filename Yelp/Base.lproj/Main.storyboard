@@ -85,7 +85,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTb-yI-nxh">
-                                                    <rect key="frame" x="324" y="42.5" width="17" height="16"/>
+                                                    <rect key="frame" x="324" y="44.5" width="17" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.42128013959390864" green="0.42128013959390864" blue="0.42128013959390864" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
@@ -97,6 +97,7 @@
                                                 <constraint firstItem="75T-KY-rLG" firstAttribute="leading" secondItem="HZ6-Gp-tVH" secondAttribute="trailing" constant="8" id="7XM-TM-f1r"/>
                                                 <constraint firstItem="BTM-yH-v3l" firstAttribute="centerY" secondItem="igX-aH-xE0" secondAttribute="centerY" id="Azu-IX-dVr"/>
                                                 <constraint firstItem="igX-aH-xE0" firstAttribute="leading" secondItem="HZ6-Gp-tVH" secondAttribute="trailing" constant="8" id="DSe-LV-WsO"/>
+                                                <constraint firstItem="UTb-yI-nxh" firstAttribute="leading" secondItem="BTM-yH-v3l" secondAttribute="trailing" constant="63" id="Gbd-i4-oaC"/>
                                                 <constraint firstItem="HZ6-Gp-tVH" firstAttribute="top" secondItem="D00-lb-aNH" secondAttribute="topMargin" constant="7" id="HMK-Xu-lEQ"/>
                                                 <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="HZ6-Gp-tVH" secondAttribute="bottom" constant="12" id="I2a-la-SiZ"/>
                                                 <constraint firstItem="AMI-PU-3Z8" firstAttribute="leading" secondItem="igX-aH-xE0" secondAttribute="leading" id="UrT-BE-8OF"/>
@@ -106,10 +107,10 @@
                                                 <constraint firstItem="AMI-PU-3Z8" firstAttribute="top" secondItem="igX-aH-xE0" secondAttribute="bottom" constant="3" id="bRh-Cr-jD8"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="AMI-PU-3Z8" secondAttribute="trailing" constant="8" id="cgv-T4-fum"/>
                                                 <constraint firstItem="v43-o4-myJ" firstAttribute="leading" secondItem="igX-aH-xE0" secondAttribute="leading" id="enP-gW-WCP"/>
-                                                <constraint firstItem="UTb-yI-nxh" firstAttribute="top" secondItem="Je6-ij-xoq" secondAttribute="bottom" constant="5" id="hAs-ff-hhy"/>
                                                 <constraint firstItem="v43-o4-myJ" firstAttribute="top" secondItem="AMI-PU-3Z8" secondAttribute="bottom" constant="3" id="kZf-Yd-sYA"/>
                                                 <constraint firstItem="75T-KY-rLG" firstAttribute="top" secondItem="D00-lb-aNH" secondAttribute="topMargin" constant="8" id="mJR-Vc-rT2"/>
                                                 <constraint firstItem="UTb-yI-nxh" firstAttribute="trailing" secondItem="Je6-ij-xoq" secondAttribute="trailing" id="mLa-uw-qsF"/>
+                                                <constraint firstItem="UTb-yI-nxh" firstAttribute="centerY" secondItem="BTM-yH-v3l" secondAttribute="centerY" id="uSp-nL-2B5"/>
                                                 <constraint firstItem="HZ6-Gp-tVH" firstAttribute="leading" secondItem="D00-lb-aNH" secondAttribute="leadingMargin" constant="8" id="whV-QN-hT9"/>
                                                 <constraint firstItem="HZ6-Gp-tVH" firstAttribute="top" secondItem="D00-lb-aNH" secondAttribute="topMargin" constant="7" id="xc9-tk-xq5"/>
                                                 <constraint firstItem="BTM-yH-v3l" firstAttribute="leading" secondItem="igX-aH-xE0" secondAttribute="trailing" constant="4" id="zRK-fD-XKr"/>
